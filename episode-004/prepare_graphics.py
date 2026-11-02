@@ -1,3 +1,5 @@
+import sys as _sys;from pathlib import Path as _P;_sys.path.insert(0,str(_P(__file__).resolve().parents[1]))
+from platform_paths import font_path,whisper_dir
 """Prepare this episode's checked typography and letterboxed Flow inputs.
 
 No voice, motion or final render is synthesized by this preparation command.
@@ -18,7 +20,7 @@ SOURCES = {
 }
 
 def font(size, dialogue=False):
-    path = 'C:/Windows/Fonts/' + ('NotoSerifKR-VF.ttf' if dialogue else 'NotoSansKR-VF.ttf')
+    path = font_path('NotoSerifKR' if dialogue else 'NotoSansKR')
     f = ImageFont.truetype(path, size)
     f.set_variation_by_name('Bold')
     return f

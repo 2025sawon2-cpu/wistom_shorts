@@ -1,4 +1,6 @@
 """Prepare this episode's editorial typography; never substitute for motion QA."""
+import sys as _sys;from pathlib import Path as _P;_sys.path.insert(0,str(_P(__file__).resolve().parents[1]))
+from platform_paths import font_path,whisper_dir
 from pathlib import Path
 import json,re
 from PIL import Image,ImageDraw,ImageFont
@@ -7,7 +9,7 @@ ROOT=Path(__file__).resolve().parent
 OUT=ROOT/'edit'
 OUT.mkdir(exist_ok=True)
 def font(size,dialogue=False):
-    f=ImageFont.truetype('C:/Windows/Fonts/NotoSerifKR-VF.ttf' if dialogue else 'C:/Windows/Fonts/NotoSansKR-VF.ttf',size)
+    f=ImageFont.truetype(font_path('NotoSerifKR' if dialogue else 'NotoSansKR'),size)
     f.set_variation_by_name('Bold');return f
 def centered(im,text,cy,size,color,stroke=0,dialogue=False):
     d=ImageDraw.Draw(im);f=font(size,dialogue);b=d.textbbox((0,0),text,font=f,stroke_width=stroke)

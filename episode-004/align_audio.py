@@ -1,4 +1,6 @@
 """Read the already installed/cached local ASR; never download a model."""
+import sys as _sys;from pathlib import Path as _P;_sys.path.insert(0,str(_P(__file__).resolve().parents[1]))
+from platform_paths import font_path,whisper_dir
 from pathlib import Path
 import json,sys
 from faster_whisper import WhisperModel
@@ -6,7 +8,7 @@ from faster_whisper import WhisperModel
 root=Path(__file__).resolve().parent
 source=root/'audio'/(sys.argv[1] if len(sys.argv)>1 else 'narration-raw.wav')
 model=WhisperModel('small',device='cpu',compute_type='int8',
-    download_root='C:/Codex/인스타자동화_사원2/insta_auto/data/models/faster-whisper',local_files_only=True)
+    download_root=whisper_dir(),local_files_only=True)
 segments,_=model.transcribe(str(source),language='ko',word_timestamps=True,beam_size=5,vad_filter=True)
 rows=[]
 for s in segments:

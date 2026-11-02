@@ -1,4 +1,6 @@
 """Capture actual final-file evidence; keep subjective listening separate."""
+import sys as _sys;from pathlib import Path as _P;_sys.path.insert(0,str(_P(__file__).resolve().parents[1]))
+from platform_paths import font_path,whisper_dir
 from pathlib import Path
 import hashlib,json,subprocess
 from PIL import Image,ImageDraw
@@ -7,7 +9,7 @@ info=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams',
 v=next(s for s in info['streams'] if s['codec_type']=='video')
 assert (v['width'],v['height'],v['r_frame_rate'])==(1080,1920,'60/1')
 assert any(s['codec_type']=='audio' for s in info['streams'])
-decode=subprocess.run(['ffmpeg','-v','error','-i',str(video),'-f','null','NUL'],capture_output=True,text=True)
+decode=subprocess.run(['ffmpeg','-v','error','-i',str(video),'-f','null',__import__('os').devnull],capture_output=True,text=True)
 assert decode.returncode==0 and not decode.stderr,decode.stderr
 cues=json.loads((out/'timed-cues.json').read_text(encoding='utf-8'))
 for page in range((len(cues)+8)//9):
