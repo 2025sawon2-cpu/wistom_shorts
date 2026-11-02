@@ -1,0 +1,40 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans KR,68,&H00FFFFFF,&H000000FF,&H0017201C,&H0017201C,-1,0,0,0,100,100,0,0,1,2,1,5,90,90,259,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.48,Default,,0,0,0,,{\pos(540,1661)}엄마가 올린\N달력 사진 한 장에
+Dialogue: 0,0:00:02.48,0:00:05.55,Default,,0,0,0,,{\pos(540,1661)}가족 단톡방이\N조용해졌습니다
+Dialogue: 0,0:00:05.92,0:00:08.50,Default,,0,0,0,,{\pos(540,1661)}며칠 전,\N엄마가 물었습니다
+Dialogue: 0,0:00:09.05,0:00:10.95,Default,,0,0,0,,{\pos(540,1661)}“숙소는 어디로 할까?”
+Dialogue: 0,0:00:11.35,0:00:13.45,Default,,0,0,0,,{\pos(540,1661)}아빠는 “아무 데나”
+Dialogue: 0,0:00:13.60,0:00:16.10,Default,,0,0,0,,{\pos(540,1661)}식당을 묻자 딸은
+Dialogue: 0,0:00:16.10,0:00:17.95,Default,,0,0,0,,{\pos(540,1661)}“맛있는 데로”
+Dialogue: 0,0:00:18.35,0:00:20.55,Default,,0,0,0,,{\pos(540,1661)}그런데 막상 고르면
+Dialogue: 0,0:00:20.65,0:00:22.52,Default,,0,0,0,,{\pos(540,1661)}“거긴 멀어”
+Dialogue: 0,0:00:22.65,0:00:24.05,Default,,0,0,0,,{\pos(540,1661)}“다른 데는 없어?”
+Dialogue: 0,0:00:24.65,0:00:27.90,Default,,0,0,0,,{\pos(540,1661)}휴대폰을 넘기던\N엄마의 손이 멈췄습니다
+Dialogue: 0,0:00:28.35,0:00:32.55,Default,,0,0,0,,{\pos(540,1661)}교통, 숙소,\N식당, 준비물
+Dialogue: 0,0:00:33.05,0:00:34.98,Default,,0,0,0,,{\pos(540,1661)}달력에 적힌 담당자는
+Dialogue: 0,0:00:34.98,0:00:36.95,Default,,0,0,0,,{\pos(540,1661)}전부 엄마였습니다
+Dialogue: 0,0:00:37.45,0:00:40.95,Default,,0,0,0,,{\pos(540,1661)}엄마는 그 사진 아래\N한 줄을 보냈습니다
+Dialogue: 0,0:00:41.35,0:00:42.75,Default,,0,0,0,,{\pos(540,1661)}“나도 이번에는
+Dialogue: 0,0:00:42.75,0:00:45.05,Default,,0,0,0,,{\pos(540,1661)}여행 가는 사람이\N되고 싶어”
+Dialogue: 0,0:00:45.35,0:00:48.05,Default,,0,0,0,,{\pos(540,1661)}한동안 답이 없었습니다
+Dialogue: 0,0:00:48.65,0:00:50.55,Default,,0,0,0,,{\pos(540,1661)}잠시 뒤, 딸이 썼습니다
+Dialogue: 0,0:00:50.95,0:00:52.65,Default,,0,0,0,,{\pos(540,1661)}“숙소는 내가 맡을게
+Dialogue: 0,0:00:52.80,0:00:55.15,Default,,0,0,0,,{\pos(540,1661)}오늘 여덟 시까지\N예약할게”
+Dialogue: 0,0:00:55.65,0:00:57.25,Default,,0,0,0,,{\pos(540,1661)}일곱 시 사십 분
+Dialogue: 0,0:00:57.25,0:00:58.88,Default,,0,0,0,,{\pos(540,1661)}예약을 마친 딸이
+Dialogue: 0,0:00:58.88,0:01:01.05,Default,,0,0,0,,{\pos(540,1661)}달력의 ‘엄마’를 지우고
+Dialogue: 0,0:01:01.05,0:01:02.95,Default,,0,0,0,,{\pos(540,1661)}자기 이름을 적었습니다
+Dialogue: 0,0:01:03.15,0:01:05.18,Default,,0,0,0,,{\pos(540,1661)}남은 일은 여전했지만
+Dialogue: 0,0:01:05.18,0:01:07.05,Default,,0,0,0,,{\pos(540,1661)}이제 한 줄은
+Dialogue: 0,0:01:07.05,0:01:08.95,Default,,0,0,0,,{\pos(540,1661)}엄마의 몫이\N아니었습니다
+Dialogue: 0,0:01:09.50,0:01:12.50,Default,,0,0,0,,{\pos(540,1661)}다음에는 이렇게\N물어보면 어떨까요
+Dialogue: 0,0:01:12.90,0:01:17.20,Default,,0,0,0,,{\pos(540,1661)}“내가 무엇을,\N언제까지 맡으면 될까?”

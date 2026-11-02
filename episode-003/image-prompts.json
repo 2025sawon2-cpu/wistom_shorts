@@ -1,0 +1,68 @@
+{
+  "mode": "built-in imagegen",
+  "scene_prompts": [
+    {
+      "scene": 2,
+      "prompt": "Use case: illustration-story. Reference image1 is the established characters, shop and drawing style for this film. Create a NEW square 1:1 shot of the SAME Korean seamstress Jeonghui (54, short dark brown wavy hair, forest-green cardigan, cream collared shirt, brown work apron) behind her black sewing machine in the same warm small alterations shop. This is the beginning of the story: medium close-up of her face and upper torso, warmly but slightly anxiously smiling and agreeing to a customer's rushed request; one hand gently accepts a folded neutral gray garment coming from an out-of-frame adult customer's hand at right. Keep only one seamstress and the partial customer's hand, navy trousers unfinished at lower-left edge. Warm afternoon light, hand-drawn dark ink contours, painted cel-shaded face and hands, gouache textures, expressive illustrated eyes. Preserve coherent clothing and room details. Important action above bottom18%; no text, no typography, no numbers, no watermark, no photograph.",
+      "file": "images/02-promise.png"
+    },
+    {
+      "scene": 3,
+      "prompt": "Use case: illustration-story. Reference is the exact seamstress and shop design and hand-drawn illustration style. Create a NEW square 1:1 medium-wide scene: same Korean woman seamstress Jeonghui (54, short wavy dark brown hair, green cardigan, cream collared shirt, brown apron) on LEFT at her worn wooden counter. On RIGHT is a new Korean male customer age28 with short neat black hair, light-gray crewneck sweater, dark trousers, holding a GRAY SUIT JACKET folded over his forearm. He looks politely urgent and concerned, asking about tomorrow's job interview. Jeonghui looks attentively at him, not smiling, her hands resting next to unfinished NAVY TROUSERS on counter. Same black sewing machine with lamp on left, thread spools back wall, glass door right background, soft late morning light. Clear two-shot, both characters upper bodies and hands entirely in frame; important content above bottom18%. Delicate drawn contours and warm gouache/cel-shaded faces matching reference, not a photo. No letters, numbers, speech bubbles, watermarks or frames.",
+      "file": "images/03-interview.png"
+    },
+    {
+      "scene": 4,
+      "prompt": "Use case: illustration-story. Create a new square 1:1 illustrated close-up from the same film as reference. Exact same seamstress Jeonghui, Korean woman54, short dark brown wavy hair, forest-green cardigan, cream collared shirt, brown apron. She has just hesitated before accepting another urgent job. Three-quarter medium close-up of her face upper-left and her hands center; her eyes look down thoughtfully to unfinished NAVY TROUSERS folded on the worn wooden counter below. Her mouth is gently closed, brow slightly drawn, not crying. The black sewing machine is partly visible to left, same warm thread shelves softly behind, a small cream work ticket with NO text lies on top of the navy fabric. Expressive ink-contour face, painted cel shading, warm gouache texture exactly matching reference. Late morning sunlight. Important face/hands/fabric not cropped and above bottom18%. No lettering, numbers, captions, bubbles, watermarks or photographic rendering.",
+      "file": "images/04-hesitation.png"
+    },
+    {
+      "scene": 5,
+      "prompt": "Use case: illustration-story. Input1 fixes the same illustrated characters and shop. New square 1:1 narrative shot, slightly wider, viewed from just behind the shop counter toward the glazed door on the RIGHT. The young Korean man with short black hair, light-gray sweater, dark trousers and folded dark gray suit jacket over left arm is leaving through that door, shown three-quarter BACK, taking one calm step away, not angry. Same seamstress Jeonghui (54, short wavy brown hair, green cardigan, cream shirt, brown apron) remains LEFT behind her wooden counter, one hand raised a few centimeters as if she almost called him back but stopped; she watches with restrained concern. The navy trousers remain on counter by the black sewing machine. Late morning light, street softly visible outside, room design consistent. Hand-drawn dark contours, warm painted cel-shaded faces and gouache textures matching reference, clearly illustration. No motion blur, text, signs, speech bubbles, numbers, watermark or frames. Main people and props above bottom18%.",
+      "file": "images/05-door.png"
+    },
+    {
+      "scene": 6,
+      "prompt": "Use case: illustration-story. New square 1:1 illustrated insert shot in the same modest alterations shop. Close view of Jeonghui's hands carefully guiding a NAVY TROUSER LEG hem under the SAME black vintage sewing machine, a neat unfinished turned hem with a few pins clearly visible, short cream shirt cuffs below forest-green cardigan sleeves, brown apron behind, worn golden oak tabletop. Composition from above at a gentle oblique angle, correct realistic fingers with safe distance from needle, fabric controlled with one hand on each side. Only her lower torso and hands, no faces or other people. Warm work-lamp pool, background thread spools and metal scissors in ceramic cup softly blurred. Hand-drawn fine dark outlines, beautiful restrained gouache/cel shading matching the reference, tactile navy cloth but clearly illustration. Keep working hands and needle in middle; bottom18% quieter. No writing, logos, letters, numbers, watermark or frame.",
+      "file": "images/06-sewing.png"
+    },
+    {
+      "scene": 7,
+      "prompt": "Use case: illustration-story. Create new square 1:1 medium two-shot in SAME illustrated alterations shop as reference. Seamstress Jeonghui at LEFT, same54-year-old Korean woman, short wavy brown hair, forest-green cardigan, cream collared shirt, brown apron. At RIGHT a NEW Korean male customer about64 with short gray hair, mild age lines, beige jacket over navy collared shirt, a plain brown canvas tote hanging from his wrist. Jeonghui is extending neatly folded FINISHED NAVY TROUSERS across wooden counter with both hands; the older man has one hand reaching toward the trousers but has not taken them yet. The man looks cautiously expectant, she looks quietly apologetic and attentive, no big smile. This is the promised late afternoon pickup; soft golden afternoon light. Black sewing machine and green lamp LEFT, thread shelves back, glazed door RIGHT. Fine ink outlines, hand-drawn expressive faces and cel-shaded gouache texture matching reference. Both heads/hands/garment in view above bottom18%, clean silhouettes, no letters, signs, numbers, speech bubbles, watermark or frame.",
+      "file": "images/07-handover.png"
+    },
+    {
+      "scene": 8,
+      "prompt": "Use case: illustration-story. Reference image fixes the exact people, clothing, trousers, shop and warm drawn illustration style. Create NEW square1:1 close-up insert of the older male customer's hands examining the newly finished NAVY TROUSER HEM on the same worn oak counter. Only beige jacket cuffs, mature Korean hands with five natural fingers, the folded trousers and the plain brown canvas tote standing open at right. One hand gently pinches the hem edge while other supports the cloth; fine straight finished seam clearly visible, NO pins. Hint of seamstress's green cardigan and brown apron at upper-left edge but NO faces needed. Golden late afternoon light. Fine hand-drawn outlines, cel-shaded hands and soft gouache texture matching reference, no photographic skin. Keep action in middle and upper area; bottom18% less busy. No letters, numbers, signs, watermarks or frames. No garment transformation or extra hands.",
+      "file": "images/08-inspect.png"
+    },
+    {
+      "scene": 9,
+      "prompt": "Use case: illustration-story. New square1:1 final narrative illustration in the SAME small Korean alterations shop and warm hand-drawn style as reference. The only visible person is same Jeonghui (Korean woman54, short wavy dark brown hair, green cardigan, cream collared shirt, brown apron). She sits calmly LEFT of center at wooden counter, looking down thoughtfully at a small open PAPER PLANNER, her left index finger resting on one row and her right hand holding a pen over a BLANK area, no writing of any kind. A modest orderly stack of three garments lies to her right, black sewing machine in left foreground, quiet EMPTY customer space and closed glazed door on right. Wider composition showing an unbusy shop rather than successful crowd; gentle daylight, composed thoughtful face, no triumphant smile. Same wall of colorful thread spools, green lamp and familiar warm wood. Clear face, hands, planner and garments above bottom18%. Fine dark drawn contours, cel-shaded faces and hands, gouache paper texture, illustrated rather than photographic. No readable text, numbers, labels, signs, subtitles, bubbles, watermarks or border.",
+      "file": "images/09-schedule.png"
+    }
+  ],
+  "prompts": [
+    {
+      "file": "C:/Users/s98se/.codex/generated_images/01a18dae-57f1-7562-9dfa-732ae8da5fc7/exec-54cc1a1e-e7a2-4937-b977-f605a59d0416.png",
+      "prompt": "Use case: illustration-story. One polished square 1:1 narrative illustration for a Korean life-wisdom short film, no text or frames. Scene: a modest present-day Korean neighborhood alterations shop, warm watercolor/gouache digital storybook painting with restrained delicate linework, realistic adult proportions, emotionally nuanced expressions, muted forest green, cream, warm wood, amber daylight. Main character Jeonghui, a Korean woman about 54 with short dark brown wavy hair, warm face with subtle age lines, cream collared shirt, forest-green cardigan, brown work apron. She is on the LEFT behind a worn oak counter and a black sewing machine, interrupted at her task, looking apologetically at a Korean woman customer about 40 on the RIGHT with shoulder-length straight black hair, blue-gray blouse, holding a folded burgundy skirt and expressing contained disappointment. No exaggerated rage. Main character's hands rest naturally near the machine, realistic five-fingered hands. Unfinished folded navy trousers in foreground left, stacks of alterations behind, neatly arranged thread spools on back wall, small work lamp to left of machine, glazed shop door on right background. Medium-wide eye-level shot, faces in upper-middle, hands and garments clearly visible in center, important content kept above bottom 18% for later editorial subtitles. Cohesive cinematic light, professional illustration, readable silhouettes, no visible letters, no signs, no speech bubbles, no watermarks. Create the entire square composition without cropped heads.",
+      "adopted": false
+    },
+    {
+      "file": "01-delay.png",
+      "prompt": "Use case: style-transfer. Edit image1 (the two women in the alterations shop). Change only the rendering style into the visibly hand-drawn warm narrative animation illustration style of image2 (the woodworking illustration): delicate dark drawn contours, softly painted cel-shaded faces and hands, gouache texture, slightly simplified expressive eyes. This must clearly be an illustration rather than a photograph. Preserve image1's square composition, exact two women identities, older seamstress's short wavy hair, green cardigan/cream shirt/brown apron, customer's blue-gray blouse and burgundy skirt, hands, navy trousers, shop and sewing machine. Image2 is ONLY a style reference, do not transfer its men or wood workshop. No writing, typography, watermark or frame.",
+      "adopted": true
+    }
+  ],
+  "saved_assets": [
+    "C:\\Codex\\지혜이야기(쇼츠)\\episode-003\\images\\01-delay.png",
+    "C:\\Codex\\지혜이야기(쇼츠)\\episode-003\\images\\02-promise.png",
+    "C:\\Codex\\지혜이야기(쇼츠)\\episode-003\\images\\03-interview.png",
+    "C:\\Codex\\지혜이야기(쇼츠)\\episode-003\\images\\04-hesitation.png",
+    "C:\\Codex\\지혜이야기(쇼츠)\\episode-003\\images\\05-door.png",
+    "C:\\Codex\\지혜이야기(쇼츠)\\episode-003\\images\\06-sewing.png",
+    "C:\\Codex\\지혜이야기(쇼츠)\\episode-003\\images\\07-handover.png",
+    "C:\\Codex\\지혜이야기(쇼츠)\\episode-003\\images\\08-inspect.png",
+    "C:\\Codex\\지혜이야기(쇼츠)\\episode-003\\images\\09-schedule.png"
+  ]
+}

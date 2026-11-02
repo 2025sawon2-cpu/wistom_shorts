@@ -1,0 +1,42 @@
+# Local sessions, credentials, and caches
+.codex-attachments/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+*.tmp
+*.bak
+
+# Generated media stays on the production PC
+*.mp4
+*.mov
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.zip
+
+# Generated QA reports, timings, and intermediate edit lists
+manager/qa/
+episode-*/**/edit*/**/*.json
+episode-*/**/edit*/**/*.txt
+episode-*/audio/*alignment.json
+episode-*/v*/audio/*alignment.json
+episode-*/audio/*check.json
+branding/**/asset-check.json
+
+# Third-party transcript research originals stay local
+근거/대본재검토_20261030/*.txt
+근거/원본재분석_20261102/*.txt
+근거/추가표본_20261102.json

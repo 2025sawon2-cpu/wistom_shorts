@@ -1,0 +1,15 @@
+{
+  "method": "built-in image_gen; no CLI or paid API",
+  "assets": [
+    {
+      "output": "images/03-choice-v2.png",
+      "references": ["images/03-choice.png"],
+      "prompt": "Use case: precise-object-edit. Edit target: attached square Korean print-shop narrative illustration. Correct ONLY the smartphone in the man's left hand. It currently impossibly combines a rear camera and a little screen on the back. Replace that visible phone face with a continuous matte dark charcoal BACK panel and a small realistic rear camera cluster at its upper left. The display faces toward the man, away from viewer, and is NOT visible. No picture, no window, no text on the back. Keep exact phone silhouette and all fingers, man's identity, face, gaze, short dark hair with slight gray, dark teal shirt, worn brown apron, blank cream paper note on desk, printing press, wooden counter, warm afternoon lighting, all framing and painterly ink illustration style UNCHANGED. Square full composition, no crop, no lettering."
+    },
+    {
+      "output": "images/07-closing.png",
+      "references": ["images/01-payment-shop.png", "images/02-catalog.png"],
+      "prompt": "Use case: illustration-story. Create a NEW final scene for this illustrated Korean print-shop story. Input images are identity, costume, art-style and location references, NOT edit targets. Square detailed warm hand-drawn ink and painterly illustration, same visual style and the exact same small shop entrance as references. Evening after work, blue dusk outside with a quiet warm hanging lamp above the old blank cream rectangular sign on its dark bracket. Two adults stand just outside the now closed glass door. Jihoon, Korean male early forties, short dark hair with a few gray strands, dark teal rolled-sleeve work shirt and worn dark brown apron, is on left at the doorway, gently reaching for a wall light switch with one hand, calm relieved face. Sora, Korean woman early thirties, shoulder-length dark hair, cream blouse and navy apron, stands to right holding her small shoulder bag, looking briefly toward him with a subtle relaxed smile. Medium-wide view, show both characters from knees up, show the complete old sign above them, same teal shop trim, old printing press and paper stacks visible through glass. The old sign is still worn, unchanged, serviceable, and completely blank for precise Korean lettering added later. They have kept a promise and are leaving quietly, no celebratory gestures. One hand per natural action, correct fingers, no phones, no text, no pseudoletters, no watermark. Keep enough margins that both heads, hands and the old sign are within frame."
+    }
+  ]
+}

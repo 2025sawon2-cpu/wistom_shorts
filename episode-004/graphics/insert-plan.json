@@ -1,0 +1,35 @@
+{
+  "status": "prepared overlays; inspect and align with actual generated motion before use",
+  "space": "1080 square artwork, applied after interpolation and before shot crop",
+  "files": {
+    "01-sign": {
+      "art": "01",
+      "overlay": "01-sign.png"
+    },
+    "07-sign": {
+      "art": "07",
+      "overlay": "07-sign.png"
+    },
+    "03-note": {
+      "art": "03",
+      "overlay": "03-note.png"
+    },
+    "04-calendar": {
+      "art": "04",
+      "overlay": "04-calendar.png"
+    },
+    "01-payment": {
+      "art": "01",
+      "overlay": "01-payment.png"
+    },
+    "05-transfer": {
+      "art": "05",
+      "overlay": "05-transfer.png"
+    },
+    "06-salary": {
+      "art": "06",
+      "overlay": "06-salary.png"
+    }
+  },
+  "notes": "Not bank screenshots. These are editorial labels for a fictional story. No amount, real account or specific payment date invented."
+}
