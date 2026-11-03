@@ -1,9 +1,9 @@
 {
   "status": "complete",
-  "episodeId": "episode-004",
-  "title": "낡은 간판을 바꾸지 않은 이유",
+  "episodeId": "episode-005",
+  "title": "하루 5편: 005~009",
   "stage": "qa",
-  "message": "74.5초/1080x1920/60fps 완성. 현재본 화면·전사·전체디코딩 검사, 외부 연속재생0~74.5초/error없음, 전체다운로드SHA256 일치 확인. 업로드 전 보관함 등록 완료.",
-  "resultEpisodeId": "episode-004",
-  "updatedAt": "2026-11-02T18:31:05+09:00"
+  "message": "하루 5편(005~009) 완성·보관함 등록. 직접 청감·사용자 취향은 미확인",
+  "resultEpisodeId": "episode-005",
+  "updatedAt": "2026-11-03T01:52:39+09:00"
 }

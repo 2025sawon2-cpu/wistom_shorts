@@ -1,0 +1,60 @@
+{
+ "model": "Veo 3.1 Lite, 9:16, 720p, 6s, x1 (5 credits each)",
+ "common": "Animate only the illustrated square in the middle of the vertical black canvas; keep its exact size, position and all black margins. Locked camera, no zoom, no pan, no crop. Preserve the hand-drawn ink illustration style, faces, clothes, hands and props exactly. Subtle natural motion only. No new people or objects, no text, no letters, no subtitles, no watermark. Silent.",
+ "shots": [
+  {
+   "id": "01",
+   "input": "images/flow-inputs/01.png",
+   "asset": "e05-01.png",
+   "action": "He holds the envelope with both hands and smiles gently, coworkers clap softly behind him, one blink."
+  },
+  {
+   "id": "02",
+   "input": "images/flow-inputs/02.png",
+   "asset": "e05-02.png",
+   "action": "The son talks with a small pleading hand gesture; the father slowly opens the bankbook and looks down at it."
+  },
+  {
+   "id": "03",
+   "input": "images/flow-inputs/03.png",
+   "asset": "e05-03.png",
+   "action": "The daughter rubs her clasped hands and leans forward slightly; the father listens and blinks."
+  },
+  {
+   "id": "04",
+   "input": "images/flow-inputs/04.png",
+   "asset": "e05-04.png",
+   "action": "The young man jingles the car keys and grins; the father taps his phone once and smiles faintly."
+  },
+  {
+   "id": "05",
+   "input": "images/flow-inputs/05.png",
+   "asset": "e05-05.png",
+   "action": "His fingers tighten slightly on the bankbook, eyebrows draw together, a slow tired breath."
+  },
+  {
+   "id": "06",
+   "input": "images/flow-inputs/06.png",
+   "asset": "e05-06.png",
+   "action": "He looks down at his phone, his thumb scrolls once, then he lowers the phone slowly. Steam rises faintly from the food."
+  },
+  {
+   "id": "07",
+   "input": "images/flow-inputs/07.png",
+   "asset": "e05-07.png",
+   "action": "He slowly lifts a spoonful of soup, pauses, then lowers it; the hanging lamp sways very slightly."
+  },
+  {
+   "id": "08",
+   "input": "images/flow-inputs/08.png",
+   "asset": "e05-08.png",
+   "action": "He looks out of the window, then down at the bankbook in his hand; the city lights twinkle softly."
+  },
+  {
+   "id": "09",
+   "input": "images/flow-inputs/09.png",
+   "asset": "e05-09.png",
+   "action": "The grandfather hands the money and smiles; the child jumps a little with joy; leaves sway in the breeze."
+  }
+ ]
+}

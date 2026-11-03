@@ -1,0 +1,60 @@
+{
+ "model": "Veo 3.1 Lite, 9:16, 720p, 6s, x1 (5 credits each)",
+ "common": "Animate only the illustrated square in the middle of the vertical black canvas; keep its exact size, position and all black margins. Locked camera, no zoom, no pan, no crop. Preserve the hand-drawn ink illustration style, faces, clothes, hands and props exactly. Subtle natural motion only. No new people or objects, no text, no letters, no subtitles, no watermark. Silent.",
+ "shots": [
+  {
+   "id": "01",
+   "input": "images/flow-inputs/01.png",
+   "asset": "e09-01.png",
+   "action": "He poses and grins beside the car; she gives a polite small smile and shifts her bag."
+  },
+  {
+   "id": "02",
+   "input": "images/flow-inputs/02.png",
+   "asset": "e09-02.png",
+   "action": "He tosses the card toward the waiter with a flick and laughs; she glances at the wine bottle."
+  },
+  {
+   "id": "03",
+   "input": "images/flow-inputs/03.png",
+   "asset": "e09-03.png",
+   "action": "They both laugh over the simple meal; steam rises from the pot."
+  },
+  {
+   "id": "04",
+   "input": "images/flow-inputs/04.png",
+   "asset": "e09-04.png",
+   "action": "She hands over the card with a happy smile; he smiles back warmly."
+  },
+  {
+   "id": "05",
+   "input": "images/flow-inputs/05.png",
+   "asset": "e09-05.png",
+   "action": "She reads the phone, frowns slightly and lowers it to her lap."
+  },
+  {
+   "id": "06",
+   "input": "images/flow-inputs/06.png",
+   "asset": "e09-06.png",
+   "action": "He grips his hair and stares at the bills with a heavy sigh."
+  },
+  {
+   "id": "07",
+   "input": "images/flow-inputs/07.png",
+   "asset": "e09-07.png",
+   "action": "He points calmly at the open notebook while explaining; she leans in and listens."
+  },
+  {
+   "id": "08",
+   "input": "images/flow-inputs/08.png",
+   "asset": "e09-08.png",
+   "action": "Her worried look softens into a warm, reassured smile; one slow blink."
+  },
+  {
+   "id": "09",
+   "input": "images/flow-inputs/09.png",
+   "asset": "e09-09.png",
+   "action": "They walk slowly hand in hand toward the sunset; leaves sway gently."
+  }
+ ]
+}

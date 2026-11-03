@@ -34,7 +34,9 @@ brew install --cask font-noto-sans-kr font-noto-serif-kr
 
 - 글꼴·음성 정렬 모델 경로는 `platform_paths.py`가 Windows/macOS를 구분해 찾는다(episode-002~004 스크립트 적용). 001의 이전 스크립트는 기록용으로 Windows 경로를 그대로 둔다.
 - faster-whisper `small` 모델은 macOS에서 `~/.cache/wistom_shorts/faster-whisper`에 둔다. 다른 위치는 `WHISPER_MODEL_DIR` 환경변수로 지정한다.
-- 편별 스크립트는 `.venv/bin/python episode-00N/<스크립트>.py`로 실행한다.
+- 001~004의 편별 스크립트는 `.venv/bin/python episode-00N/<스크립트>.py`로 실행한다.
+- 005부터는 공용 도구를 쓴다: `tools/split_storyboard.py`(스토리보드 9칸·Flow 입력), `tools/match_clips.py --eps 5-9 ~/Downloads/*.mp4`(클립 배치), `tools/make_short.py episode-XXX`(최종 MP4), `tools/qa_short.py episode-XXX`(검수). 절차는 `영상_제작_규칙.md`.
+- PyAV는 `av>=14,<17`로 고정한다: `uv pip install --python .venv/bin/python 'av>=14,<17'`.
 
 ## 제작 환경과 파일
 

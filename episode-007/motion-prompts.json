@@ -1,0 +1,60 @@
+{
+ "model": "Veo 3.1 Lite, 9:16, 720p, 6s, x1 (5 credits each)",
+ "common": "Animate only the illustrated square in the middle of the vertical black canvas; keep its exact size, position and all black margins. Locked camera, no zoom, no pan, no crop. Preserve the hand-drawn ink illustration style, faces, clothes, hands and props exactly. Subtle natural motion only. No new people or objects, no text, no letters, no subtitles, no watermark. Silent.",
+ "shots": [
+  {
+   "id": "01",
+   "input": "images/flow-inputs/01.png",
+   "asset": "e07-01.png",
+   "action": "Both shop owners stand still, one glances at the other; a little dust drifts in the light."
+  },
+  {
+   "id": "02",
+   "input": "images/flow-inputs/02.png",
+   "asset": "e07-02.png",
+   "action": "He leans on the car and laughs while gesturing; the customers nod and smile."
+  },
+  {
+   "id": "03",
+   "input": "images/flow-inputs/03.png",
+   "asset": "e07-03.png",
+   "action": "The man in the truck smiles modestly and adjusts his cap slightly."
+  },
+  {
+   "id": "04",
+   "input": "images/flow-inputs/04.png",
+   "asset": "e07-04.png",
+   "action": "The people around him talk with small hand gestures; he looks around overwhelmed and raises a hand."
+  },
+  {
+   "id": "05",
+   "input": "images/flow-inputs/05.png",
+   "asset": "e07-05.png",
+   "action": "The landlord holds out the contract; the shop owner's mouth opens in shock and he leans back."
+  },
+  {
+   "id": "06",
+   "input": "images/flow-inputs/06.png",
+   "asset": "e07-06.png",
+   "action": "He slowly places a bill into the bankbook and smooths it; the lamp light is steady."
+  },
+  {
+   "id": "07",
+   "input": "images/flow-inputs/07.png",
+   "asset": "e07-07.png",
+   "action": "Snow falls gently in the alley; inside, the man rubs his head slowly in despair."
+  },
+  {
+   "id": "08",
+   "input": "images/flow-inputs/08.png",
+   "asset": "e07-08.png",
+   "action": "The blank paper sign flutters slightly; the man walks a step from his old truck toward the shop."
+  },
+  {
+   "id": "09",
+   "input": "images/flow-inputs/09.png",
+   "asset": "e07-09.png",
+   "action": "He looks around the shop calmly and takes a slow breath; dust sparkles in the sunlight."
+  }
+ ]
+}

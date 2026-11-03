@@ -1,0 +1,60 @@
+{
+ "model": "Veo 3.1 Lite, 9:16, 720p, 6s, x1 (5 credits each)",
+ "common": "Animate only the illustrated square in the middle of the vertical black canvas; keep its exact size, position and all black margins. Locked camera, no zoom, no pan, no crop. Preserve the hand-drawn ink illustration style, faces, clothes, hands and props exactly. Subtle natural motion only. No new people or objects, no text, no letters, no subtitles, no watermark. Silent.",
+ "shots": [
+  {
+   "id": "01",
+   "input": "images/flow-inputs/01.png",
+   "asset": "e08-01.png",
+   "action": "He rises with his card in hand and smiles at the team; the grill smoke drifts upward."
+  },
+  {
+   "id": "02",
+   "input": "images/flow-inputs/02.png",
+   "asset": "e08-02.png",
+   "action": "He hands his card at the counter; the coworkers behind him bow slightly and smile."
+  },
+  {
+   "id": "03",
+   "input": "images/flow-inputs/03.png",
+   "asset": "e08-03.png",
+   "action": "He reads the phone and smiles softly, thumb scrolling once; the lamp light is warm."
+  },
+  {
+   "id": "04",
+   "input": "images/flow-inputs/04.png",
+   "asset": "e08-04.png",
+   "action": "The coworkers keep chatting and laughing; he glances at the bill folder and back up."
+  },
+  {
+   "id": "05",
+   "input": "images/flow-inputs/05.png",
+   "asset": "e08-05.png",
+   "action": "He finishes speaking; the coworkers freeze and exchange awkward glances."
+  },
+  {
+   "id": "06",
+   "input": "images/flow-inputs/06.png",
+   "asset": "e08-06.png",
+   "action": "The young coworker tilts his head with a pitying smile; the manager looks down."
+  },
+  {
+   "id": "07",
+   "input": "images/flow-inputs/07.png",
+   "asset": "e08-07.png",
+   "action": "He stares at the phone and slowly sets it down; the coworkers behind laugh together."
+  },
+  {
+   "id": "08",
+   "input": "images/flow-inputs/08.png",
+   "asset": "e08-08.png",
+   "action": "He walks slowly forward under the streetlight, head slightly lowered."
+  },
+  {
+   "id": "09",
+   "input": "images/flow-inputs/09.png",
+   "asset": "e08-09.png",
+   "action": "The two men lift their coffee cups and laugh naturally; steam rises from the cups."
+  }
+ ]
+}

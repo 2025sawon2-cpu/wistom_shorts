@@ -1,0 +1,60 @@
+{
+ "model": "Veo 3.1 Lite, 9:16, 720p, 6s, x1 (5 credits each)",
+ "common": "Animate only the illustrated square in the middle of the vertical black canvas; keep its exact size, position and all black margins. Locked camera, no zoom, no pan, no crop. Preserve the hand-drawn ink illustration style, faces, clothes, hands and props exactly. Subtle natural motion only. No new people or objects, no text, no letters, no subtitles, no watermark. Silent.",
+ "shots": [
+  {
+   "id": "01",
+   "input": "images/flow-inputs/01.png",
+   "asset": "e06-01.png",
+   "action": "He listens on the phone, eyes widen slightly, then he nods once."
+  },
+  {
+   "id": "02",
+   "input": "images/flow-inputs/02.png",
+   "asset": "e06-02.png",
+   "action": "The friend hands back the envelope with a grateful smile and a small bow; he takes it and smiles."
+  },
+  {
+   "id": "03",
+   "input": "images/flow-inputs/03.png",
+   "asset": "e06-03.png",
+   "action": "The friend presses the phone to his ear, glances around anxiously and runs a hand through his hair."
+  },
+  {
+   "id": "04",
+   "input": "images/flow-inputs/04.png",
+   "asset": "e06-04.png",
+   "action": "The friend lowers his head further; the other man exhales and looks at his soju glass. The bulb flickers softly."
+  },
+  {
+   "id": "05",
+   "input": "images/flow-inputs/05.png",
+   "asset": "e06-05.png",
+   "action": "He stares at the bankbook, swallows, then glances toward the sleeping wife in the background."
+  },
+  {
+   "id": "06",
+   "input": "images/flow-inputs/06.png",
+   "asset": "e06-06.png",
+   "action": "He reads his phone, his face falls slowly, he lowers his eyes. Bare branches sway lightly."
+  },
+  {
+   "id": "07",
+   "input": "images/flow-inputs/07.png",
+   "asset": "e06-07.png",
+   "action": "The thumb hovers and moves slightly over the blank screen, the hand trembles a little."
+  },
+  {
+   "id": "08",
+   "input": "images/flow-inputs/08.png",
+   "asset": "e06-08.png",
+   "action": "He rubs his temple slowly and glances at the framed photo; the desk lamp glows steadily."
+  },
+  {
+   "id": "09",
+   "input": "images/flow-inputs/09.png",
+   "asset": "e06-09.png",
+   "action": "The tent canvas moves gently in the wind; the liquid in the full glass shimmers slightly. No people appear."
+  }
+ ]
+}

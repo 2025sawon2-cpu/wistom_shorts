@@ -1,8 +1,15 @@
 # 부자의 심리학 제작 인계
 
-## 현재 요약 — 2026-11-02 4편 완료 (18:31 KST)
+## 현재 요약 — 2026-11-03 005~009 완료
 
 이 절이 최신 상태다. 아래 재개·보류 기록은 당시 근거이며 현재 실행 지시가 아니다.
+
+- **2026-11-03 제작 규칙 정리:** 005~009에서 확인한 방법·함정을 `영상_제작_규칙.md`로 묶었다. `tools/match_clips.py`는 `--eps`로 편 범위를 받고, `tools/split_storyboard.py`는 Flow 입력 캔버스까지 만든다(`--inputs-only`).
+- **배경음악 검토(사용자 청감 대기):** Gemini 앱 '음악 만들기'(Ultra 포함)로 1분 11초 연주곡을 받아 `episode-005/edit/final-bgm-test.mp4`로 시험 믹스했다(-16.5 LUFS, 전사 일치 0.969). 승인 전에는 `final.mp4`에 넣지 않는다. 근거·값은 `영상_제작_규칙.md` 8절.
+- **관리페이지 링크 2026-11-03:** `https://orbit-respondent-frankfurt-handbook.trycloudflare.com/` (임시 터널, Mac 세션 의존). 외부 페이지·목록·005~009 영상 206·대표 이미지 200·009 전체 다운로드 해시 일치·`/handoff.md` 404 확인.
+- **2026-11-03 하루 5편(005~009) 완성 — Mac·Claude Code 제작:** 005 「50대에 돈이 없으면 / 가장 먼저 떠나는 사람」(기본), 006 「돈을 빌려주면 / 결국 생기는 일」(기본), 007 「진짜 부자가 / 끝까지 숨기는 것」(기본), 008 「밥값 매번 내면 / 호구 되는 이유」(호구형), 009 「돈 앞에서 드러나는 / 진짜 테토남 특징」(테토남형). 각 `episode-00N/final.mp4`·`poster.jpg`, 65~72초, 1080×1920·60fps·H.264/AAC.
+- **제작 경로(새 표준):** 음성은 Mac Chrome(2025sawon… Ultra) AI Studio Gemini 3.8 Flash TTS/Arlo + 스타일, 편마다 새 Playground 세션(같은 세션 재실행은 Run 비활성). 원화는 Flow Nano Banana 2.1(0크레딧) 3×3 스토리보드 한 장을 4K로 받아 `tools/split_storyboard.py`로 9패널 분할. 모션은 Flow Veo 3.1 Lite·9:16·6초·x1(5크레딧×45=225 기존 크레딧), 프로젝트 `57abee14-81fc-41c8-b96d-9a1f65831f9e`. 클립은 `tools/match_clips.py`가 첫 프레임으로 패널과 대조해 `clips/NN.mp4`로 배치. 편집은 `tools/make_short.py`(쉼 단위 분할 전사 정렬→0.4초 초과 무음만 0.24초로 축소→그림 60fps 보간·재사용 컷 클로즈업→제목·자막 합성), 검수는 `tools/qa_short.py`. 클립 결함은 `clip-edits.json`으로 구간·영역만 제외(005 07 앞1.9초 검은 여백, 007 05 3.8초 이후 영문 글씨, 008 03 왼쪽 사선 패널 경계).
+- **검수:** 5편 모두 전체 디코딩 오류 없음, -16.4~-17.1 LUFS, True Peak -1.3~-1.5dBFS, 최종 음성 전사 대조 93~97%(숫자 표기·발음 차이 위주, 문장 누락 없음 확인). 전 구간 24프레임 시트와 전 클립 마지막 프레임 시트를 직접 확인. **직접 청감·사용자 취향은 미확인.** `manager/library.json` 등록(uploadStatus=before), progress finish 완료. 게시·예약은 하지 않았다.
 
 - **현재 완성본:** episode-004 〈낡은 간판을 바꾸지 않은 이유〉. `episode-004/final.mp4`·`poster.jpg`가 실제 존재한다. 1080×1920·60fps·74.5초·4,470프레임·H.264/AAC, 27,560,629바이트. MP4 SHA256=`f745b8c9613a6a2ad9a888bd743afbb04fe790691260f14ceddc602c43017492`. 모건 하우절 《돈의 심리학》에서 얻은 생각을 새 인물·사건으로 풀었으며 원고20문장·자막31화면이다.
 - **완료 상태:** 현재 파일의 자체 기술·화면·전사 검사 후 `manager/library.json`에 대표 이미지·업로드 전 메타데이터와 함께 등록했다. `manager/progress.py finish` 성공 및 외부 `/production`의 complete/resultEpisodeId=episode-004를 확인했다. 보관함의 단일 원본은 001=`episode-001/v3/final-v7.mp4`, 002=`episode-002/final.mp4`, 003=`episode-003/final.mp4`, 004=`episode-004/final.mp4`다. 기존3개 항목을 보존했고4편 모두 uploadStatus=before·YouTube ID 없음이다.
